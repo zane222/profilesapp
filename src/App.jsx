@@ -67,7 +67,8 @@ export default function App() {
             className="box"
           >
             <View>
-              <Heading level="3">{userprofile.email}</Heading>
+              <Heading level="3">Email you're signed in with: {userprofile.email}</Heading>
+              <Heading level="3">This is Zane Mouakket's web app (zam0067), thank you for signing in!!!</Heading>
             </View>
           </Flex>
         ))}
